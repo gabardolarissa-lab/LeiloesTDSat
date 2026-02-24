@@ -30,7 +30,7 @@ public class conectaDAO {
         );
             
         } catch (SQLException erro){
-            JOptionPane.showMessageDialog(null, "Erro ConectaDAO" + erro.getMessage());
+            JOptionPane.showMessageDialog(null, "Erro ao listar produtos: " + erro.getMessage());
         }
         return conn;
     }
