@@ -24,7 +24,7 @@ public class conectaDAO {
         
             conn = DriverManager.getConnection
         (
-            "jdbc:mysql://localhost:3306/uc11",
+            "jdbc:mysql://localhost:3306/uc11?useSSL=false&serverTimezone=UTC",
             "root",
             "La23031988!"
         );
